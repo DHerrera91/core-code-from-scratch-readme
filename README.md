@@ -137,7 +137,7 @@ Which chests have treasures?
 
 ## Answer
 
-The chests with a trasure within them are: **Chest A & Chest C** 😉
+The chests with a treasure within them are: **Chest A & Chest C** 😉
 
 
 
