@@ -137,10 +137,45 @@ Which chests have treasures?
 <img width="354" alt="image" src="https://user-images.githubusercontent.com/29307118/202836372-19159ef8-14d5-4ecf-b08c-819b05e79f81.png">
 
 
-## Answer
+### Answer
 
 The chests with a treasure within them are: **Chest A & Chest C** 😉
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h1 aling="center">Week-2</h1>
+
+# (Monday)
+
+## Description
+The teacher asks his 5 students if they studied mathematics yesterday.
+
+Alice: "Nobody studied math yesterday".
+Bob: "1 person studied math yesterday".
+Charlie: "2 people studied math yesterday".
+Dan: "3 people studied mathematics yesterday".
+Eva: "4 people studied mathematics yesterday".
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
+
+### Answer
+
+Bob is the one telling the truth because he´s the only one not contradicting other students.
+
+
+## Which comes first, cereal or milk?
+
+1. Take out a bowl
+2. Take out a spoon
+3. Prepare the milk
+7. Take out the cereal
+8. Add the amount the cereal you want
+9. Pour the milk
+10. Enjoy
+
+
+![Cereal vs milk drawio](https://user-images.githubusercontent.com/99042872/204414094-1939eb61-efbe-4823-80eb-604c1dae4a27.png)
 
 
 
