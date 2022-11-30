@@ -177,6 +177,14 @@ Bob is the one telling the truth because he´s the only one not contradicting ot
 
 ![Cereal vs milk drawio](https://user-images.githubusercontent.com/99042872/204414094-1939eb61-efbe-4823-80eb-604c1dae4a27.png)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# (Tuesday)
+
+## Pseint_print_my_name_&_age
+
+![PrintMyNameAndAge](https://user-images.githubusercontent.com/99042872/204687271-1424d32b-e300-4190-8a2d-90b4b797a289.png)
+
 
 
 
