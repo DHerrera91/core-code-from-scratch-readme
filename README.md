@@ -184,12 +184,21 @@ Bob is the one telling the truth because he´s the only one not contradicting ot
 
 ![PrintMyNameAndAge](https://user-images.githubusercontent.com/99042872/204687271-1424d32b-e300-4190-8a2d-90b4b797a289.png)
 
+----------------------
+# (Wednesday)
 
+## Algorithm Game
 
+![Algorithm_game](https://user-images.githubusercontent.com/99042872/204937621-0a4d452c-0087-496b-9235-3fbdd8352c7a.png)
 
+## Even or odd
 
+ ![Captura de pantalla_20221130_183219](https://user-images.githubusercontent.com/99042872/204937527-2ce3000c-480d-446d-9869-fd735f8a174a.png)
 
-
-
+ ## Register Form
  
- 
+ ![Captura de pantalla_20221130_191105](https://user-images.githubusercontent.com/99042872/204941777-c5411db8-7de5-4b33-9fca-88ea25c8d0b4.png)
+
+-----------------
+# (Thursday)
+
