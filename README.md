@@ -201,4 +201,59 @@ Bob is the one telling the truth because he´s the only one not contradicting ot
 
 -----------------
 # (Thursday)
+## Truth tables
 
+1. T `&` T = T  :heavy_check_mark:
+2. T `&` F = F  :heavy_check_mark:
+3. F `&` T = T  :x:
+4. F `&` F = F  :heavy_check_mark:
+5. T `|` T = T  :heavy_check_mark:
+6. T `|` F = F  :x:
+7. F `|` T = T  :heavy_check_mark:
+8. F `|` F = F  :heavy_check_mark:
+9. `~`T = T  :x:
+10. `~`F = T  :heavy_check_mark:
+11. (T `&` F) `|` (`~`F) = T  :heavy_check_mark:    
+12. (T `|` F ) `&` (F `|` F) = T  :x:
+13. `~`((T `|` F ) `&` (F `|` F)) `&` F = T  :x: 
+14. `~`((T `|` F ) `&` (F `|` F)) `&` T = F  :x:
+----
+## Boolean results
+
+```python
+Algoritmo Boolean_result
+	a <- 5 == 3
+	//The output for this variable is 'False' due to 5 isn't equal to 3
+	b <- 4 <> 3
+	//The output for this variable is 'True' due to 4 isn't equal to 3
+	c <- 7 > 7
+	//The output for this variable is 'False' due to 7 isn't greater than 7
+	d <- 4 < 4
+	//The output for this variable is 'False' due to 4 isn't less than 4
+	e <- 100 <= 90
+	//The output for this variable is 'False' due to 100 isn't less or equal to 90
+	f <- 40 >= 40
+	//The output for this variable is 'True' due to 40 isn't greater than itself but is equal to 40
+	Imprimir a
+	Imprimir b
+ 	Imprimir c
+	Imprimir d
+	Imprimir e
+	Imprimir f
+FinAlgoritmo 
+```
+---
+## Identify odd and even numbers
+
+```python
+Algoritmo odd_and_even
+	Definir n Como entero
+	Escribir 'Ingrese un numero'
+	Leer n
+	si n % 2 = 0 Entonces
+		Imprimir 'Numero: ',n,' es par'
+	SiNo
+		Imprimir 'Numero: ',n, ' es impar'
+	FinSi
+FinAlgoritmo 
+```
