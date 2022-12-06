@@ -257,3 +257,76 @@ Algoritmo odd_and_even
 	FinSi
 FinAlgoritmo 
 ```
+----
+<h1 align="center">Week-3</h1>
+
+# (Monday)
+
+## Simple Calculator
+
+```python
+Algoritmo Simple_calculator
+	Definir num1,num2 Como Entero
+	Definir operacion Como Caracter
+	Escribir '====== Simple Calculator ======'
+	Escribir 'Ingrese el primer numero'
+	Leer num1
+	Escribir 'Ingrese el segundo numero'
+	Leer num2
+	Escribir 'Indique el tipo de operació: +, -, *, /'
+	Leer operacion
+	si (operacion = '+')|(operacion = '-')|(operacion = '*')|(operacion = '/') Entonces
+		
+		si operacion = '+' Entonces
+			Escribir 'Procesando: ',num1,' + ',num2  
+			Escribir 'Resultado: ' num1+num2
+		SiNo
+			si operacion = '-' Entonces
+				Escribir 'Procesando: ',num1,' - ',num2  
+				Escribir 'Resultado: ' num1-num2
+			SiNo
+				si  operacion = '*' Entonces
+					Escribir 'Procesando: ',num1,' * ',num2  
+					Escribir 'Resultado: ' num1*num2
+				SiNo
+					si  operacion = '/' Entonces
+						Escribir 'Procesando: ',num1,' / ',num2  
+						Escribir 'Resultado: ' num1/num2
+					
+					FinSi
+				
+				FinSi
+			
+			FinSi
+		FinSi
+	SiNo
+		Escribir '?? La operación no es válida!'
+	FinSi
+	
+FinAlgoritmo
+```
+---
+## Special Number
+```python
+Algoritmo SpecialNumber
+	Leer n
+	Si n == 100 Entonces
+		Imprimir 'This is a special number!'
+	SiNo
+		
+		Si n < 1000 & n % 10 = 0 Entonces
+		Imprimir 'This number is almost special'
+		SiNo
+			Imprimir 'Just a regular number'
+		FinSi
+		
+	FinSi
+FinAlgoritmo
+
+```
+
+---
+
+# (Tuesday)
+
+
