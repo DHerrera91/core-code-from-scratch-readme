@@ -1,4 +1,4 @@
-# core-code-from-scratch-readme
+<h1 align="center">core-code-from-scratch-readme</h1>
 
 <h1 align="center">Week-1</h1>
      
@@ -329,6 +329,42 @@ FinAlgoritmo
 
 # (Tuesday)
 
+## Simple Calculator With Switch Case
+```python
+Algoritmo Simple_calculator
+	Definir n1,n2 Como real
+	Definir op Como Caracter
+	
+	Escribir '====== Simple Calculator ======'
+	Escribir 'Ingrese el primer numero'
+	Leer n1
+	Escribir 'Ingrese el segudo numero'
+	Leer n2
+	Escribir 'Ingrese una operación: +, -, *, /' 
+	Leer op
+	
+	si (op = '+')|(op = '-')|(op = '*')|(op = '/') Entonces
+		Segun op hacer
+		'+':
+			Escribir 'Procesando: ',n1,' + ',n2  
+			Escribir 'Resultado: ' n1+n2	
+		'-':
+			Escribir 'Procesando: ',n1,' - ',n2  
+			Escribir 'Resultado: ' n1-n2
+		'*':
+			Escribir 'Procesando: ',n1,' * ',n2  
+			Escribir 'Resultado: ' n1*n2
+		'/':
+			Escribir 'Procesando: ',n1,' / ',n2  
+			Escribir 'Resultado: ' n1/n2
+		FinSegun
+	SiNo
+	Escribir  '?? La operación no es válida!'
+	FinSi
+
+FinAlgoritmo
+```
+
 ## Multi Option Program
 
 ```python
@@ -384,3 +420,12 @@ Algoritmo Multi_option_program
 FinAlgoritmo
 
 ```
+---
+
+
+
+
+
+
+
+[**Go To Top**](#core-code-from-scratch-readme)
