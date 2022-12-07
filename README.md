@@ -329,4 +329,58 @@ FinAlgoritmo
 
 # (Tuesday)
 
+## Multi Option Program
 
+```python
+Algoritmo Multi_option_program
+	Definir op  Como Entero
+	
+	Escribir '======= Multi Option ======='
+	Escribir 'Available options'
+	Escribir 'To sum enter 1'
+	Escribir 'To print day of the week enter 2'
+	Escribir 'To get text lenght enter 3'
+	Escribir 'Enter an option'
+	Leer op
+	si op <> 1 & op <> 2 & op <> 3 Entonces
+		Escribir '¡Sorry! =/ Invalid option.'
+	SiNo
+		Segun op hacer
+			1:
+				Definir n1,n2 Como Real
+				Escribir 'Perform a sum of two numbers'
+				Escribir ''
+				Escribir 'Enter first number'
+				Leer n1
+				Escribir 'Enter second number'
+				Leer n2
+				Escribir 'The sum of ',n1,' + ',n2,' is: ', n1+n2
+			2:
+				Definir n3 Como Entero
+				Dimension week[7]
+				week[0]<-'Monday'
+				week[1]<-'Tuesday'
+				week[2]<-'Wednesday'
+				week[3]<-'Thursday'
+				week[4]<-'Friday'
+				week[5]<-'Saturday'
+				week[6]<-'Sunday'
+				Escribir 'Print day of the week'
+				Escribir ''
+				Escribir 'Enter the day of the week in numbers (1-7)'
+				Leer n3
+				Escribir week[n3-1]
+			3:
+				Definir txt Como Caracter
+				Escribir 'Print the length of the text'
+				Escribir ''
+				Escribir 'Enter the text of which you want to know the length'
+				Leer txt
+				Escribir'The length of the text is: ', Longitud(txt)
+				
+		FinSegun
+	FinSi
+
+FinAlgoritmo
+
+```
