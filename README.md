@@ -434,7 +434,7 @@ Algoritmo Multiplication_tables
 	Escribir 'Calculating table of: ', num 
 	cont <- 1
 	Mientras cont > 0 & cont <11 Hacer
-		Escribir cont * num
+		Escribir num,' + ', cont ' = ' cont * num
 		cont <- cont + 1
 		
 	FinMientras
