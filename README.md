@@ -421,9 +421,27 @@ FinAlgoritmo
 
 ```
 ---
+# (Wednesday)
 
+## Multiplication Tables
 
-
+```python
+Algoritmo Multiplication_tables
+	Definir num Como Entero
+	Escribir '============ Multiplication Tables ============'
+	Escribir 'Enter a number to get the multiplication table'
+	Leer num
+	Escribir 'Calculating table of: ', num 
+	cont <- 1
+	Mientras cont > 0 & cont <11 Hacer
+		Escribir cont * num
+		cont <- cont + 1
+		
+	FinMientras
+	
+FinAlgoritmo
+```
+---
 
 
 
