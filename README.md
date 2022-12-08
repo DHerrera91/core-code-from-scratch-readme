@@ -2,6 +2,7 @@
 
 <h1 align="center">Week-1</h1>
      
+[**Go To Bottom**](#End-Of-Challenges)     
 # (Wednesday)
 
 ## Let´s make a pizza:
@@ -442,8 +443,51 @@ Algoritmo Multiplication_tables
 FinAlgoritmo
 ```
 ---
+## Simple Calculator With Do While
+
+```python
+Algoritmo Simple_calculator_Using_Do_While
+
+	Definir n1,n2 Como real
+	Definir op,new Como Caracter
+	
+	Repetir	
+		Limpiar Pantalla
+		Escribir '====== Simple Calculator ======'
+		Escribir 'Ingrese el primer numero'
+		Leer n1
+		Escribir 'Ingrese el segudo numero'
+		Leer n2
+		Escribir 'Ingrese una operación: +, -, *, /' 
+		Leer op
+		
+		si (op = '+')|(op = '-')|(op = '*')|(op = '/') Entonces
+			Escribir ''
+			Escribir 'Calculando: ',n1,' ',op,' ',n2
+			Segun op hacer
+				'+':
+					Escribir 'Resultado: ' n1+n2	
+				'-':
+					Escribir 'Resultado: ' n1-n2
+				'*':
+					Escribir 'Resultado: ' n1*n2
+				'/':
+					Escribir 'Resultado: ' n1/n2
+			FinSegun
+		SiNo
+			Escribir  '?? La operación no es válida!'
+		FinSi
+		Escribir ''
+		Escribir '¿Desea realizar un nuevo calculo? Si / No'
+		leer new
+	Hasta Que Mayusculas(New) = 'NO'
+FinAlgoritmo
+
+```
 
 
 
+
+### End Of Challenges
 
 [**Go To Top**](#core-code-from-scratch-readme)
