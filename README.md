@@ -504,6 +504,39 @@ FinAlgoritmo
 ```
 ---
 ## Ascending and Descending Numbers
+```python
+Algoritmo Ascending_Descending_Number
+	Definir num Como Entero
+	Escribir '======== Ascending - Descending Numbers ========'
+	Escribir 'Enter a number'
+	Leer num
+	Escribir 'Please select an option'
+	Escribir '1. Print in ascending order'
+	Escribir '2. Print in descending order'
+	Leer op
+	
+	si op == 1 Entonces 
+		Definir z Como Entero
+		Para z = 0 Hasta num Con Paso 1 Hacer
+			Escribir z
+		Fin Para
+	SiNo
+		
+		si op == 2 Entonces
+			Definir p Como Entero
+			Para p = num Hasta 0 Con Paso -1 Hacer
+				Escribir p
+			FinPara
+		SiNo
+			Escribir 'Sorry, you entered an invalid option =/'
+		FinSi
+	FinSi
+	
+
+FinAlgoritmo
+
+
+```
 
 ### End Of Challenges
 
