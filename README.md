@@ -330,7 +330,7 @@ FinAlgoritmo
 
 # (Tuesday)
 
-## Simple Calculator With Switch Case
+## Simple Calculator - Switch Case
 ```python
 Algoritmo Simple_calculator
 	Definir n1,n2 Como real
@@ -443,7 +443,7 @@ Algoritmo Multiplication_tables
 FinAlgoritmo
 ```
 ---
-## Simple Calculator With Do While
+## Simple Calculator - Do While
 
 ```python
 Algoritmo Simple_calculator_Using_Do_While
@@ -484,9 +484,26 @@ Algoritmo Simple_calculator_Using_Do_While
 FinAlgoritmo
 
 ```
+# (Tuesday)
+## Multiplication Tables - For Loop
+```python
+Algoritmo Multiplication_tables_For_Loop
+	Definir num Como Entero
+	Escribir '============ Multiplication Tables ============'
+	Escribir 'Enter a number to get the multiplication table'
+	Leer num
+	Escribir 'Calculating table of: ', num 
+	Escribir '-------------------------'
+	Definir z Como Entero
+	para z <- 1 Hasta 10 Con Paso 1 Hacer
+		Escribir num ,' * ',z,' = ', num * z
+	FinPara
+	Escribir '-------------------------'
+FinAlgoritmo
 
-
-
+```
+---
+## Ascending and Descending Numbers
 
 ### End Of Challenges
 
