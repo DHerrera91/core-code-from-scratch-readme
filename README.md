@@ -535,8 +535,60 @@ Algoritmo Ascending_Descending_Number
 
 FinAlgoritmo
 
+```
+---
+## Greetings
+```python
+Algoritmo Greetings
+	
+	Definir hora Como Entero
+	Definir cont Como Caracter
+
+	greets <- 0
+	Hacer
+		greets = greets +1
+		Limpiar Pantalla
+		Escribir '====== Greetings ======'
+		Escribir 'Enter the current hour in 24-hour format'
+		Leer hora
+		Escribir ''
+			
+			
+		SI	hora >= 0 & hora <= 12 Entonces
+			
+			Escribir 'Good morning!'
+		FinSi
+		
+		SI hora >= 13 & hora <=18 Entonces
+		
+			Escribir 'Good afternoon'
+		FinSi
+		
+		SI	hora >= 19 & hora <= 23 Entonces
+		
+			Escribir 'Good evening'
+		FinSi
+		
+		SI hora < 0 | hora >23 Entonces
+			Escribir '!Sorry! Your entered an invalid option'
+		FinSi
+			
+		Escribir ''
+		Escribir '-To perform another greeting type (YES)'
+		Escribir '-To fish press ENTER'
+		Leer cont
+		
+	Hasta Que Mayusculas(cont) <> 'YES' | Mayusculas(cont) ='NO'
+	
+	Escribir 'Number of greetings performed: ' greets
+
+FinAlgoritmo
 
 ```
+
+
+
+
 
 ### End Of Challenges
 
