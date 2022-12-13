@@ -2,7 +2,8 @@
 
 <h1 align="center">Week-1</h1>
      
-[**Go To Bottom**](#End-Of-Challenges)     
+[**Go To Bottom**](#End-Of-Challenges)  
+
 # (Wednesday)
 
 ## Let´s make a pizza:
@@ -586,9 +587,49 @@ FinAlgoritmo
 
 ```
 
+<h1 align="center">Week-4</h1>
+
+# (Monday)
+
+## Average Sales And Commissions
 
 
+```Python
+Algoritmo Average_Sales_And_Commissions
+	
+	Definir Cant_ventas,Valor_venta,Sum_ventas Como entero
+	Definir Avg_sales,commiss15,commiss10 Como Real
 
+	Escribir 'Enter the amount of sales made '
+	Leer Cant_ventas
+	Sum_ventas <- 0
+	Para venta = 1 Hasta Cant_ventas Con Paso 1 Hacer
+		Escribir 'Enter the value of the sale: ',venta
+		Leer Valor_venta
+		Sum_ventas = Sum_ventas + Valor_venta 
+	Fin Para
+	Limpiar Pantalla
+	Escribir 'The average of sales is: ',Sum_ventas/Cant_ventas
+	Escribir ''
+	
+	commiss15 <- Sum_ventas * 0.15
+	commiss10 <- Sum_ventas * 0.10
+	
+	Si Sum_ventas > 5 Entonces
+		Escribir 'The commission recieved by the seller is: ',commiss15
+	SiNo
+		Escribir 'The commission recieved by the seller is: ',commiss10
+	Fin Si
+	Escribir ''
+FinAlgoritmo
+
+```
+---
+## Even or odd
+
+```python
+
+```
 
 ### End Of Challenges
 
