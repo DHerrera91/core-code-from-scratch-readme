@@ -684,7 +684,27 @@ Algoritmo Full_Name
 FinAlgoritmo
 
 ```
+## Throw Dice
+```python
+Algoritmo Throw_Dice
+	
+	Definir dice1,dice2 Como Entero
+	cont <- 1
+	Mientras cont < 11 Hacer
+		dice1 <- azar(7)
+		dice2 <- azar(7)
+		si dice1 = dice2 Entonces
+			Imprimir dice1,' ',dice2,' The dice are the same'
+		SiNo
+			Imprimir dice1,' ',dice2
+		FinSi
+		cont = cont + 1
+	FinMientras
+FinAlgoritmo
+	
+```
 
+---
 
 
 
