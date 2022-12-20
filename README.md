@@ -655,6 +655,44 @@ Algoritmo Even_OR_Odd
 FinAlgoritmo
 
 ```
+---
+
+# (Tuesday)
+
+## Full Name
+
+```python
+Algoritmo Full_Name
+	
+	Definir nombre,apellido Como Caracter
+	
+	Escribir 'Write a name'
+	Leer nombre
+	Escribir 'write a last name'
+	Leer apellido
+	
+	n = Longitud(nombre)
+	m = Longitud(apellido)
+	
+	nombreminusc = Minusculas(nombre)
+	apellidominusc = Minusculas(apellido)
+	
+	first_upper_nombre = Concatenar(Mayusculas(Subcadena(nombreminusc,0,0)),Subcadena(nombreminusc,1,n))
+	first_upper_apellido = Concatenar(Mayusculas(Subcadena(apellidominusc,0,0)),Subcadena(apellidominusc,1,m))
+	
+	Imprimir first_upper_nombre,' ', first_upper_apellido
+FinAlgoritmo
+
+```
+
+
+
+
+
+
+
+
+
 
 ### End Of Challenges
 
