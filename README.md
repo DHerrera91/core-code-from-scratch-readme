@@ -706,7 +706,47 @@ FinAlgoritmo
 
 ---
 
+# (Wednesday)
+## Distance To Zero
 
+```python
+Algoritmo Distance_To_Zero
+	
+	Definir num Como real
+	max <- 0
+	
+	Dimension numeros[5]
+	para p = 0 hasta 4 Con Paso 1 Hacer
+		Escribir 'Write a number'
+		
+		leer numeros[p]
+	FinPara
+	
+	Para q = 0 Hasta 4 Con Paso 1 Hacer
+		si numeros[q] > max Entonces
+			max = numeros[q]
+		FinSi
+	FinPara
+	
+	min <- numeros[0]
+	Para z = 0 hasta 4 Con Paso 1 Hacer
+		si min > numeros[z] Entonces
+			min = numeros[z]
+		FinSi
+	FinPara
+	
+	si abs(max) > abs(min) Entonces
+		Escribir trunc(max)
+	SiNo
+		Escribir trunc(min)
+	FinSi
+	
+FinAlgoritmo
+
+```
+
+---
+## Toss Coin
 
 
 
