@@ -628,6 +628,31 @@ FinAlgoritmo
 ## Even or odd
 
 ```python
+Algoritmo Even_OR_Odd
+	
+	Definir num Como Entero
+	Escribir 'Enter a number between 1 and 50'
+	Leer num
+	
+	si num < 1 | num > 50 Entonces
+		Repetir
+			Escribir '!Invalid number¡'
+			Escribir 'Enter a number between 1 and 50'
+			Leer num
+		Mientras Que num < 1 | num >50	
+	FinSi
+	
+	
+	si num % 2 = 0 Entonces
+		para p = 2 Hasta num Con Paso 2 Hacer
+			Imprimir p
+		FinPara
+	SiNo
+		Para i = 1 hasta num Con Paso 2 Hacer
+			Imprimir i
+		FinPara
+	FinSi
+FinAlgoritmo
 
 ```
 
