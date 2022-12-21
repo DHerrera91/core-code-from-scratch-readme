@@ -748,7 +748,47 @@ FinAlgoritmo
 ---
 ## Toss Coin
 
+```python
+Algoritmo Toss_Coin
+	
+	Definir name1,name2 Como Caracter
+	Definir value1,value2,side1,side2 Como Entero
+	side1<-1
+	side2<-2
+	Escribir 'Enter the name of the first player'
+	Leer name1
+	Escribir 'Enter the amount to play'
+	Leer value1
+	Escribir 'Enter the name of the second player'
+	Leer name2
+	Escribir 'Enter the amount to play'
+	Leer value2
+	
+	si (value1 = 0 | value1 < 0) & (value2 = 0 | value2 < 0) Entonces
+		Imprimir 'Game canceled'
+	SiNo
+		
+		si value1 = 0 | value1 < 0 Entonces
+			Imprimir 'The winner is: ',Mayusculas(name2)
+		SiNo
+			
+			si value2 = 0 | value2 < 0 Entonces
+				Imprimir 'The winner is: ',Mayusculas(name1)
+			SiNo
+				winner <- aleatorio(side1,side2)
+				Segun winner Hacer
+					side1:
+						Imprimir 'The winner is ',Mayusculas(name1),' amount won is: ',value2
+					De Otro Modo:
+						Imprimir 'The winner is ',Mayusculas(name2),' amount won is ',value1
+				FinSegun
+			FinSi
+		FinSi
+	FinSi
+	
+FinAlgoritmo
 
+```
 
 
 
