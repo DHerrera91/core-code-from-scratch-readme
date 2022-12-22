@@ -485,7 +485,7 @@ Algoritmo Simple_calculator_Using_Do_While
 FinAlgoritmo
 
 ```
-# (Tuesday)
+# (Thursday)
 ## Multiplication Tables - For Loop
 ```python
 Algoritmo Multiplication_tables_For_Loop
@@ -789,6 +789,41 @@ Algoritmo Toss_Coin
 FinAlgoritmo
 
 ```
+# (Thursday)
+
+## Total Price
+
+```python
+Funcion suma <- totalPrice(precio,vat)
+	Definir suma Como Real
+	si (precio+vat) <= 3000 Entonces
+		Imprimir 'The total price is: ', precio + (precio*(vat/100))
+	SiNo
+		Imprimir 'The total price is: ', (precio + (precio*(vat/100)))-((precio + (precio*(vat/100)))* 0.10)
+	FinSi
+FinFuncion
+
+Algoritmo Total_price
+	Imprimir  totalPrice(2000,21)
+FinAlgoritmo
+```
+---
+## Reverse Direction And Size
+
+
+
+
+
+
+
+
+
+<h1 align="center">Week-5</h1>
+
+
+
+
+
 
 
 
