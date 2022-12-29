@@ -810,7 +810,28 @@ FinAlgoritmo
 ---
 ## Reverse Direction And Size
 
+```python
+Funcion RevFunc <- ReverseDirectionAndSize (text)
+	Definir RevFunc Como Caracter
+	RevFunc = ''
+	para i = Longitud(text) hasta 0 Con Paso -1
+		letra = subcadena(text,i,i)
+		si letra = Mayusculas(letra) Entonces
+			letra = Minusculas(letra)
+		SiNo
+			letra = Mayusculas(letra)
+		FinSi
+		RevFunc = Concatenar(RevFunc,letra)
+	FinPara	
+FinFuncion
 
+
+Algoritmo Reverse_Direction_And_Size
+	
+	Imprimir  ReverseDirectionAndSize('Hola')
+	
+FinAlgoritmo
+```
 
 
 
